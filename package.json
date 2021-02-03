@@ -1,0 +1,21 @@
+{
+  "name": "tezos_multisig",
+  "version": "0.0.1",
+  "description": "Multisig contract on Tezos blockchain",
+  "dependencies": {
+    "truffle": "^5.5.0-tezos.4"
+  },
+  "devDependencies": {
+    "ganache-cli": "6.11.0-tezos.0"
+  },
+  "scripts": {
+    "start-sandbox": "ganache-cli --flavor tezos --seed alice"
+  },
+  "keywords": [
+    "tezos",
+    "blockchain",
+    "truffle"
+  ],
+  "author": "Sergey Makov <makov.sergey.it@gmail.com>",
+  "license": "MIT"
+}
